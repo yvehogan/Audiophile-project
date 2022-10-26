@@ -1,0 +1,40 @@
+.hero {
+  background: url(../public/assets/home/desktop/hero.png) no-repeat;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 4rem 2rem;
+  /* padding-bottom: 3.5rem; */
+}
+.pattern {
+  background: url("../public/assets/home/desktop/pattern-bg.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.viewSpeaker {
+  background: url(../public/assets/home/desktop/image-speaker-zx7.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 7rem 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero{
+    background: url(../public/assets/home/tablet/image-header.jpg) no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero{
+    background: url(../public/assets/home/mobile/image-header.jpg) no-repeat center;
+    background-size: contain;
+  }
+}
+
+
