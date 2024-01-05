@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebookF, FaTwitter } from 'react-icons/fa'
@@ -5,6 +6,13 @@ import { BsInstagram } from 'react-icons/bs'
 
 
 const Footer = () => {
+  const [currentDate, setCurrentDate] = useState('');
+
+  useEffect(() => {
+    // Update the current date when the component mounts
+    setCurrentDate(new Date().toDateString());
+  }, []);
+
   return (
     <div className="bg-black w-full p-5">
       <div className="max-w-6xl m-auto pt-10 pb-10">
@@ -26,7 +34,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex md:flex-row flex-col justify-between md:text-justify text-center">
-          <p className="text-darkGrey mt-16">Copyright 2021. All Rights Reserved</p>
+          <p className="text-darkGrey mt-16">&copy; Copyright All Rights Reserved</p>
           <div className="flex md:justify-start justify-center gap-5 md:mt-0 mt-10">
             <FaFacebookF
               className="bg-white pt-1 h-7 w-7 rounded-sm"

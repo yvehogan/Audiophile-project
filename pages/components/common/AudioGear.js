@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Gallery from '../../../public/assets/home/desktop/image-gallery.jpg'
 
-
-
 const AudioGear = () => {
   return (
     <div className="flex lg:flex-row flex-col-reverse lg:gap-0 gap-10 mb-36">
