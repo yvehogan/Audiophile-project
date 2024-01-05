@@ -11,6 +11,7 @@ const Category = () => {
     const category = products?.filter(function (item) {
         return item?.category === "speakers";
     })
+
     return (
         <div>
             <div className="bg-black text-white text-4xl font-semibold flex justify-center pt-20 pb-20">
