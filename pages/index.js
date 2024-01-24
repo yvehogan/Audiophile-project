@@ -45,7 +45,7 @@ export default function Home() {
           <ShopComponent />
 
           <div className={styles.pattern}>
-            <div className="flex md:flex-row flex-col">
+            <div className="flex md:flex-row flex-col mb-16">
               <div className="max-w-2xl md:mt-28 mt-16  relative md:w-1/2">
                 <div className="md:absolute">
                   <Image
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
 
           <div className={styles.viewSpeaker}>
-            <p className=" text-2xl font-bold tracking-widest">ZX7 SPEAKER</p>
+            <p className=" text-2xl font-bold tracking-widest text-black">ZX7 SPEAKER</p>
             <Button
               className="mt-5 text-xs font-semibold"
               bgColor="transparent"
@@ -100,7 +100,7 @@ export default function Home() {
 
             <div className="bg-[#F1F1F1] md:w-1/2 pt-12 md:pt-0 md:pb-0 pb-12 rounded-lg flex flex-col justify-center md:items-center pl-5">
               <div className="">
-                <p className=" text-2xl font-bold tracking-widest">YX1 EARPHONES</p>
+                <p className=" text-2xl font-bold tracking-widest text-black">YX1 EARPHONES</p>
                 <Button
                   className="mt-5 text-xs font-semibold"
                   bgColor="transparent"

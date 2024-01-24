@@ -32,7 +32,7 @@ const Category = () => {
                         <div className="md:w-1/2 flex flex-col justify-center items-center md:text-start text-center">
                             <div className="">
                                 <h5 className="tracking-widest text-Primary mb-2 text-xl" >NEW PRODUCT</h5>
-                                <h1 className="md:text-5xl text-4xl md:mt-0 mt-5 font-semibold mb-4">{product?.name.toUpperCase()}</h1>
+                                <h1 className="md:text-5xl text-4xl md:mt-0 mt-5 font-semibold mb-4 text-black">{product?.name.toUpperCase()}</h1>
                                 <p className="text-darkGrey text-lg p-2 font-semibold">{product?.description}</p>
                                 <div className="flex justify-center md:justify-start items-center">
                                 <Link href={`/earphones/${product?.id}`}>

@@ -24,7 +24,7 @@ const ShopComponent = () => {
                                 />
                             </div>
                             <div className="absolute bottom-5 text-center">
-                                <h2 className="text-lg font-semibold">HEADPHONES</h2>
+                                <h2 className="text-lg font-semibold text-black">HEADPHONES</h2>
                                 <Link href="/headphones/">
                                 <p className="flex justify-center gap-3 items-center text-darkGrey">Shop
                                 <span className="text-Primary cursor-pointer"> <RiArrowRightSLine /> </span></p>
@@ -45,7 +45,7 @@ const ShopComponent = () => {
                                 />
                             </div>
                             <div className="absolute bottom-5 text-center">
-                                <h2 className="text-lg font-semibold">SPEAKERS</h2>
+                                <h2 className="text-lg font-semibold text-black">SPEAKERS</h2>
                             <Link href="/speakers/">
                                 <p className="flex justify-center gap-3 items-center text-darkGrey">Shop
                                 <span className="text-Primary cursor-pointer"> <RiArrowRightSLine /> </span></p>
@@ -67,7 +67,7 @@ const ShopComponent = () => {
                                 />
                             </div>
                             <div className="absolute bottom-5 text-center">
-                                <h2 className="text-lg font-semibold">EARPHONES</h2>
+                                <h2 className="text-lg font-semibold text-black">EARPHONES</h2>
                             <Link href="/earphones/">
                                 <p className="flex justify-center gap-3 items-center text-darkGrey">Shop
                                 <span className="text-Primary cursor-pointer"> <RiArrowRightSLine /> </span></p>
